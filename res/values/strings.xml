@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="language_list">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Kannada</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Punjabi</item>
+        <item>Bengali</item>
+        <item>Urdu</item>
+        <item>Malayalam</item>
+    </string-array>
+    <string-array name="newspaper_list">
+        <item>Newspaper 1</item>
+        <item>Newspaper 2</item>
+        <item>Newspaper 3</item>
+        <item>Newspaper 4</item>
+    </string-array>
+
+    <string name="title_activity_newspaper">NewspaperActivity</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+
+</resources>
