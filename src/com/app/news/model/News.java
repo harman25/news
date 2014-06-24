@@ -2,6 +2,8 @@ package com.app.news.model;
 
 import java.io.Serializable;
 
+import android.graphics.Bitmap;
+
 public class News implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -12,6 +14,15 @@ public class News implements Serializable {
 	private String main_link;
 	private String category;
 	private String news_src;
+	private Bitmap bitmap;
+
+	public Bitmap getBitmap() {
+		return bitmap;
+	}
+
+	public void setBitmap(Bitmap bitmap) {
+		this.bitmap = bitmap;
+	}
 
 	public String getImage_src() {
 		return image_src;
